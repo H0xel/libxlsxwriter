@@ -7,7 +7,7 @@ let package = Package(
     name: "libxlsxwriter",
     products: [
         .library(
-            name: "libxlsxwriter",
+            name: "xlsxwriter",
             targets: ["libxlsxwriter"]),
     ],
     targets: [

@@ -11,7 +11,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "xlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/xmlwriter.h"
 
 #define LXW_AMP  "&amp;"
 #define LXW_LT   "&lt;"

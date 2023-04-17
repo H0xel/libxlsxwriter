@@ -7,9 +7,9 @@
  *
  */
 
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/vml.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/vml.h"
+#include "libxlsxwriter/utility.h"
 
 /*
  * Forward declarations.

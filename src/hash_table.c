@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
-#include "xlsxwriter/hash_table.h"
+#include "libxlsxwriter/hash_table.h"
 
 /*
  * Calculate the hash key using the FNV function. See:

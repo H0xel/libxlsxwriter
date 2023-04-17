@@ -7,11 +7,11 @@
  *
  */
 
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/common.h"
-#include "xlsxwriter/drawing.h"
-#include "xlsxwriter/worksheet.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/common.h"
+#include "libxlsxwriter/drawing.h"
+#include "libxlsxwriter/worksheet.h"
+#include "libxlsxwriter/utility.h"
 
 #define LXW_OBJ_NAME_LENGTH 14  /* "Picture 65536", or "Chart 65536" */
 /*

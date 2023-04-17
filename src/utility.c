@@ -16,9 +16,9 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include "xlsxwriter.h"
-#include "xlsxwriter/common.h"
-#include "xlsxwriter/third_party/tmpfileplus.h"
+#include "libxlsxwriter.h"
+#include "libxlsxwriter/common.h"
+#include "libxlsxwriter/third_party/tmpfileplus.h"
 
 #ifdef USE_DTOA_LIBRARY
 #include "xlsxwriter/third_party/emyg_dtoa.h"

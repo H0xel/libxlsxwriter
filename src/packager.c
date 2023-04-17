@@ -44,10 +44,10 @@
  */
 
 #include <zlib.h>
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/packager.h"
-#include "xlsxwriter/hash_table.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/packager.h"
+#include "libxlsxwriter/hash_table.h"
+#include "libxlsxwriter/utility.h"
 
 STATIC lxw_error _add_file_to_zip(lxw_packager *self, FILE * file,
                                   const char *filename);

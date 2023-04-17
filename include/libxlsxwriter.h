@@ -13,10 +13,10 @@
 #ifndef __LXW_XLSXWRITER_H__
 #define __LXW_XLSXWRITER_H__
 
-#include "xlsxwriter/workbook.h"
-#include "xlsxwriter/worksheet.h"
-#include "xlsxwriter/format.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/workbook.h"
+#include "libxlsxwriter/worksheet.h"
+#include "libxlsxwriter/format.h"
+#include "libxlsxwriter/utility.h"
 
 #define LXW_VERSION "1.1.5"
 #define LXW_VERSION_ID 115

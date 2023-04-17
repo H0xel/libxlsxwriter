@@ -8,9 +8,9 @@
  */
 
 #include <string.h>
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/relationships.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/relationships.h"
+#include "libxlsxwriter/utility.h"
 
 /*
  * Forward declarations.

@@ -7,10 +7,10 @@
  *
  */
 
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/worksheet.h"
-#include "xlsxwriter/table.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/worksheet.h"
+#include "libxlsxwriter/table.h"
+#include "libxlsxwriter/utility.h"
 
 /*
  * Forward declarations.

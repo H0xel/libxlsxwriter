@@ -7,11 +7,11 @@
  *
  */
 
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/workbook.h"
-#include "xlsxwriter/utility.h"
-#include "xlsxwriter/packager.h"
-#include "xlsxwriter/hash_table.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/workbook.h"
+#include "libxlsxwriter/utility.h"
+#include "libxlsxwriter/packager.h"
+#include "libxlsxwriter/hash_table.h"
 
 STATIC int _worksheet_name_cmp(lxw_worksheet_name *name1,
                                lxw_worksheet_name *name2);

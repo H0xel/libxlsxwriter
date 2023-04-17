@@ -8,11 +8,11 @@ let package = Package(
     products: [
         .library(
             name: "xlsxwriter",
-            targets: ["libxlsxwriter"]),
+            targets: ["xlsxwriter"]),
     ],
     targets: [
         .target(
-            name: "libxlsxwriter",
+            name: "xlsxwriter",
             path: ".",
             exclude: [
                 "src/Makefile",
@@ -28,15 +28,6 @@ let package = Package(
             publicHeadersPath: "include",
             linkerSettings: [
                 .linkedLibrary("z")
-            ]),
-        .testTarget(
-            name: "libxlsxwritertests",
-            dependencies: ["libxlsxwriter"],
-            path: ".",
-            sources: ["test/swift"],
-            linkerSettings: [
-                .linkedLibrary("z")
-            ]
-        )
+            ])
     ]
 )

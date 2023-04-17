@@ -11,16 +11,16 @@
 #define _POSIX_C_SOURCE 200809L
 #endif
 
-#include "xlsxwriter/xmlwriter.h"
-#include "xlsxwriter/worksheet.h"
-#include "xlsxwriter/format.h"
-#include "xlsxwriter/utility.h"
+#include "libxlsxwriter/xmlwriter.h"
+#include "libxlsxwriter/worksheet.h"
+#include "libxlsxwriter/format.h"
+#include "libxlsxwriter/utility.h"
 
 #ifdef USE_OPENSSL_MD5
 #include <openssl/md5.h>
 #else
 #ifndef USE_NO_MD5
-#include "xlsxwriter/third_party/md5.h"
+#include "libxlsxwriter/third_party/md5.h"
 #endif
 #endif
 
